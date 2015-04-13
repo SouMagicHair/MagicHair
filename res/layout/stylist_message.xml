@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical" 
+    android:background="@color/white">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        
+            
+            
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/img_stylist_view"
+            />
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+            
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="预约"
+                />
+            
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="发私信"/>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical">
+        
+    </LinearLayout>    
+        
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/white">
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/store_message"
+            android:layout_margin="5dp"/>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical">    
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/blue_light" />
+        
+    </LinearLayout>
+
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical">
+        
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    
+        
+        <TextView 
+            android:text="作品展示"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/img_show"/>
+        
+        
+    </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+</ScrollView>
